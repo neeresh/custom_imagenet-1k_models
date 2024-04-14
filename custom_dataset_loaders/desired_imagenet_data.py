@@ -11,7 +11,7 @@ class DesiredImageNetData(Dataset):
     num_images_per_class: Number of images per class (Randomly)
     transform: Apply Transformation (Default: None)
     """
-    def __init__(self, root_dir='/home/cis/Documents/BlackBoxAttacks/CIL_Survey/blackboxattacks/surrogate_models/data/imagenet1k_to_use/task0',
+    def __init__(self, root_dir='<replace-path-to-imagenet-folders>',
                  num_images_per_class=500, transform=None):
         self.root_dir = root_dir
         self.transform = transform
